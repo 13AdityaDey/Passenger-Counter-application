@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passanger Counter app</title>
+    <link rel="stylesheet" href="/Javascript learning/Passanger counter app/Passanger_Counter_app.css">
+</head>
+<body>
+    <h1>People Entered</h1>
+    <h2 id="count">0</h2>
+    <!-- <script> 
+        let countEl=document.getElementById("count");
+       console.log(countEl);
+       let count=0;
+       function increment(){
+           count=count+1;
+           countEl.innerText= count;        
+       }
+       increment(); 
+       function save(){
+        console.log(count);
+       }
+       save()
+    </script> -->
+
+    <button  id="increment-btn" onclick="increment()" >INCREMENT</button>
+    <button  id="save-btn" onclick="save()" >SAVE</button>
+    <p id="save-el">Previous entries:</p>
+    
+    <script src="Passanger_Counter_app.js"></script>
+</body>
+</html>

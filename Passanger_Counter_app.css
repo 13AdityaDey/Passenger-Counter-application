@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    padding: 0;
+    background-image: url(kangchenjunga-and-darjeeling-india-shutterstock_1349341919.jpg);
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+}
+h1{
+    color:blanchedalmond;
+    display: flex;
+    justify-content: center;
+    
+}
+h2{
+    color:blanchedalmond;
+    display: flex;
+    justify-content: center;    
+}
+#increment-btn{
+    color:yellow;
+    background-color: brown;
+    border-radius: 75px 75px;
+    height: 5vh;
+    width:25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:5vh 38vw;
+    font-weight: bolder;
+}
+#save-btn{
+    color:rgb(18, 18, 12);
+    background-color: rgb(42, 165, 42);
+    border-radius: 75px 75px;
+    height: 5vh;
+    width:25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:5vh 38vw;
+    font-weight: bolder;
+}
+#save-el{
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
